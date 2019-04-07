@@ -1,0 +1,15 @@
+{
+  "name": "romannumerals",
+  "version": "1.0.0",
+  "description": "Roman Numeral Converter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jim Strother",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.0"
+  }
+}
