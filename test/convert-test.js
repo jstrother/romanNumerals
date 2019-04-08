@@ -20,6 +20,9 @@ function convert(number) {
     if (number === 9) {
         return 'IX';
     }
+    if (number === 10) {
+        return 'X';
+    }
     return roman;
 }
 
@@ -54,4 +57,8 @@ it('should convert 8 to VIII', () => {
 
 it('should convert 9 to IX', () => {
     convert(9).should.equal('IX');
+});
+
+it('should convert 10 to X', () => {
+    convert(10).should.equal('X');
 });
